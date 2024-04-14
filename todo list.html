@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>할 일 목록</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #ddd;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  float: right;
+  background: #f44336;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>할 일 목록</h2>
+  <input type="text" id="taskInput" placeholder="할 일 추가...">
+  <button onclick="addTask()">추가</button>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script>
+function addTask() {
+  var taskInput = document.getElementById("taskInput");
+  var taskList = document.getElementById("taskList");
+
+  if (taskInput.value === "") {
+    alert("할 일을 입력하세요.");
+    return;
+  }
+
+  var li = document.createElement("li");
+  li.textContent = taskInput.value;
+
+  var deleteBtn = document.createElement("button");
+  deleteBtn.textContent = "삭제";
+  deleteBtn.className = "delete-btn";
+  deleteBtn.onclick = function() {
+    li.remove();
+  };
+
+  li.appendChild(deleteBtn);
+  taskList.appendChild(li);
+
+  taskInput.value = "";
+}
+</script>
+
+</body>
+</html>
