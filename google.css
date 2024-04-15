@@ -1,0 +1,126 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: contents;
+  height: 80px;
+}
+
+.tcc{
+  float: right;
+  margin: 20px;
+}
+
+.mw{
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.mw:hover{
+  text-decoration: underline;
+}
+
+.mw:active{
+  color: red;
+}
+
+.main{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.ia{
+  margin-top: 20px;
+}
+
+.ib{
+  width: 515px;
+  height: 42px;
+  border-radius: 24px;
+  border: 1px solid #c5c8cd;
+}
+
+.jmw{
+  position: relative;
+  left: 40px;
+  color: #8f979f;
+}
+
+.jmj{
+  position: relative;
+  right: 40px;
+}
+
+.button{
+  padding-top: 18px;
+}
+
+.bs{
+  border-radius: 20px;
+  border: 2px solid #f8f9faf7;
+  background-color: #f8f9faf7;
+  text-align: center;
+  height: 36px;
+  margin: 10px 4px;
+  padding: 0 15px;
+}
+
+.bs:hover{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  background-color: #f8f9faf7;
+  border: 1px solid #e1e1e2;
+  color: #18191a;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color: red;
+}
+
+.os{
+  margin: 20px;
+}
+
+.img{
+  width: 272px;
+  height: 90px;
+}
+
+.footer{
+  background-color: #f2f2f2fa;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.fi{
+  padding: 15px 30px;
+  border-bottom: 1px solid #d8d9db;
+  font-size: 15px;
+}
+
+.si{
+  padding: 15px 20px;
+}
+
+.s1{
+  float: left;
+  padding: 0 20px;
+  height: 36px;
+}
+
+.s2{
+  float: right;
+  padding: 0 20px;
+  height: 36px;
+}
