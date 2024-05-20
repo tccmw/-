@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="insta.css" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <div class="nav">
+      <div class="nav-flex">
+        <div class="logo"><img width="130"
+            src="data:image/png;base64,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">
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-container">
+            <li><img class="nav-img" src="https://cdn-icons-png.flaticon.com/512/7606/7606153.png"> 홈</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWT1WdL8z9fM56FOgGQRBFNBEjbwpHOTYnG2PGlZubQ&s">
+              검색</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWUMnYgX4rPgppFunBrWVDWOPDTfOFGUOaQsZCkuOLg&s">
+              탑색 탭</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKZRHpbqPvWDn72LDqOBjlVe8ANfzkFAkaKRb4hlz1Q&s">
+              릴스</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL2RwxvGOqsvFjKzEGMorOrNgZU2cRl9VaZJS1VWWs3Q&s">
+              메세지</li>
+            <li><img class="nav-img" src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png"> 알림</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HFS5xGbE_z9bztVgyY3llYKX9sQaKTvWvpJ8qmcCKQ&s">
+              만들기</li>
+            <li><img class="nav-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcugJUhq5eeVIvQHxtAHQta8krU4zAoQFLSdcwNaQGHQ&s">
+              프로필</li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <ul class="nav-container">
+          <li><img class="nav-img" src="https://cdn.maily.so/202307/thebk/1689453470524615.png">THreads</li>
+          <li><img class="nav-img"
+              src="https://w7.pngwing.com/pngs/218/996/png-transparent-more-options-interface-navigation-icon.png"> 더 보기
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="cnt-nav">
+      <div class="cnt-container">
+        <div class="cnt-flex">
+          <div class="cnt-item">
+            <div class="cpr"><img width="45px"
+                src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+            </div>
+            <div class="asd">tcc_mw</div>
+          </div>
+          <div class="icon">
+            <div class="cpr"><img width="45px"
+                src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+            </div>
+            <div class="asd">tcc_mw</div>
+          </div>
+          <div class="icon">
+            <div class="cpr"><img width="45px"
+                src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+            </div>
+            <div class="asd">tcc_mw</div>
+          </div>
+          <div class="icon">
+            <div class="cpr"><img width="45px"
+                src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+            </div>
+            <div class="asd">tcc_mw</div>
+          </div>
+          <div class="icon">
+            <div class="cpr"><img width="45px"
+                src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+            </div>
+            <div class="asd">tcc_mw</div>
+          </div>
+        </div>
+      </div>
+      <div class="two-main">
+        <div class="two-item">
+          <div class="two-icon"><img width="32px"
+              src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+          </div>
+          <div class="two-flex">
+            <div class="two-cnt-item"><strong>tcc_mw</strong>-2day</div>
+            <div class=""><img width="15px"
+                src="https://w7.pngwing.com/pngs/218/996/png-transparent-more-options-interface-navigation-icon.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="two-img">
+        <div class="jmw"><img width="350px" height="350px"
+            src="https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9791193110065.jpg"></div>
+      </div>
+      <div class="two-item">
+        <div>
+          <div class="p"><img width="20px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMzU4VqzHl7mVfa9japjGDHjX3ME7bj450GmELMy-Gw&s">
+          </div>
+          <div class="o"><img width="25px"
+              src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814047_1280.png"></div>
+          <div class="i"><img width="25px"
+              src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814056_1280.png"></div>
+          <div class="u"><img width="25px"
+              src="https://cdn.pixabay.com/photo/2018/11/13/21/44/instagram-3814059_1280.png"></div>
+        </div>
+        <div>
+          <div class="y"><strong>좋아요 2580개</strong></div>
+          <div class="t"><img width="20px"
+              src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blue">
+    <div>
+      <div class="me"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="r">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="k">정명우</div>
+      <div class="h"><strong>전환</strong></div>
+    </div>
+    <div>
+      <div id="tcc">회원님을 위한 추천</div>
+      <div id="jmw"><strong>모두 보기</strong></div>
+    </div>
+    <div id="tccelestyn">
+      <div class="me"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="r">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="k">정명우</div>
+      <div id="mw"><strong>팔로우</strong></div>
+    </div>
+    <div id="instagram">
+      <div class="love"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="you">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="dkd">정명우</div>
+      <div class="slrj"><strong>팔로우</strong></div>
+      <div class="love"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="you">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="dkd">정명우</div>
+      <div class="slrj"><strong>팔로우</strong></div>
+      <div class="love"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="you">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="dkd">정명우</div>
+      <div class="slrj"><strong>팔로우</strong></div>
+      <div class="love"><img width="35px"
+          src="https://i.namu.wiki/i/Bge3xnYd4kRe_IKbm2uqxlhQJij2SngwNssjpjaOyOqoRhQlNwLrR2ZiK-JWJ2b99RGcSxDaZ2UCI7fiv4IDDQ.webp">
+      </div>
+      <div class="you">
+        <p><strong>tcc_mw</strong></p>
+      </div>
+      <div class="dkd">정명우</div>
+      <div class="slrj"><strong>팔로우</strong></div>
+    </div>
+    <div id="lol">소개, 도움말, 홍보 센터, API, 채용정보<br>개인정보처리방침, 약관, 위치, 언어, Meta verified<br><br>@ 2024 INS TAGRM FROM META
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
